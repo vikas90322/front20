@@ -11,6 +11,8 @@ import Popup1 from './Pages/Popup1';
 import Form1 from './Pages/Form1';
 import Form2 from './Pages/Form2';
 import Form3 from './Pages/Form3';
+import TaxForm from './Pages/TaxForm';
+import Form4 from './Pages/Form4';
 
 
 function App() {
@@ -26,7 +28,11 @@ function App() {
         <Route path='/Popup1' element={<Popup1/>}/>
         <Route path='/Form1' element={<Form1/>}/>
         <Route path='/Form2' element={<Form2/>}/>
-        <Route path='/' element={<Form3/>}/>
+        <Route path='/Form3' element={<Form3/>}/>
+        <Route path='/TaxForm' element={<TaxForm/>}/>
+        <Route path='/' element={<Form4/>}/>
+
+
 
 
 
